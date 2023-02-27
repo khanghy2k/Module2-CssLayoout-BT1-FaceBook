@@ -15,14 +15,36 @@ body {
     height: 60px;
     background-color: white;
     color: white;
-    display: flex;
     align-items: center;
-    padding: 0 20px;
+    margin-top: 5px;
+    padding:0 20px;
     box-sizing: border-box;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .header img {
     margin-right: 100px;
+}
+.header b {
+    color:black;
+    border-right: 3px solid gray;
+    padding: 5px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+
+}
+.btn {
+    border: none;
+    color: cornflowerblue;
+    font-size: 25px;
+    cursor: pointer;
+    border-right: 3px solid gray;
+
 }
 .search-box {
     display: flex;
