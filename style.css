@@ -13,23 +13,17 @@ body {
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: white;
+    background-color:white;
     color: white;
-    align-items: center;
+    justify-content:space-between;
     margin-top: 5px;
     padding:0 20px;
     box-sizing: border-box;
     flex-direction: row;
-    flex-wrap: nowrap;
+
 }
-.header img {
-    margin-right: 100px;
-}
-.header b {
-    color:black;
-    border-right: 3px solid gray;
-    padding: 5px;
-}
+
+
 .avatar {
     vertical-align: middle;
     width: 50px;
@@ -37,32 +31,33 @@ body {
     border-radius: 50%;
     align-items: center;
 
+
 }
 .btn {
     border: none;
-    color: cornflowerblue;
-    font-size: 25px;
+    margin:5px;
+    font-size: 30px;
     cursor: pointer;
-    border-right: 3px solid gray;
+    border-radius: 50%;
+
 
 }
 .search-box {
     display: flex;
     align-items: center;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px #ccc;
 }
 
 .search-box input {
+    border-radius: 50px;
     border: none;
-    margin-left: 10px;
     font-size: 20px;
     height: 20px;
     width: 500px;
     outline: none;
+    margin:10px
 
 }
 
@@ -103,9 +98,38 @@ body {
 
 /* Main content section */
 .main {
+    display: flex;
     margin-top: 60px;
-    margin-left: 250px;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #F0F2F5;
+    justify-content: center;
+
+}
+.pots {
+    width:50%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.potsbtn{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    flex-direction: row;
+    padding: 20px;
+    margin: 5px;
+}
+.potsbtn .btn {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.feel {
+    margin:50px;
+    font-family: "Calibri Light";
+
 }
 
