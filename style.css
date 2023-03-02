@@ -1,8 +1,9 @@
 
 body {
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    font-family: Arial,"Century Gothic";
 }
 
 /* Fixed title at the top */
@@ -21,6 +22,7 @@ body {
     box-sizing: border-box;
     flex-direction: row;
     overflow: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
 }
 
@@ -34,9 +36,13 @@ body {
 
 
 }
+.logo {
+    border-radius: 10px;
+    margin: 5px;
+}
 .btn {
     border: none;
-    margin:5px;
+    margin:10px 5px;
     font-size: 30px;
     cursor: pointer;
     border-radius: 50%;
@@ -49,7 +55,8 @@ body {
     align-items: center;
     border-radius: 50px;
     border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px #ccc;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 10px;
 }
 
 .search-box input {
@@ -59,7 +66,8 @@ body {
     height: 20px;
     width: 500px;
     outline: none;
-    margin:10px
+
+
 
 }
 
@@ -75,12 +83,15 @@ body {
     position: fixed;
     top: 60px;
     left: 0;
-    width: 250px;
+    min-width: 100px;
     height: 100%;
-    background-color: #F0F2F5;
+    width: 300px;
+    background-color:#bdc3c7;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 5px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 .sidebar ul {
     list-style-type: none;
@@ -99,26 +110,34 @@ body {
 
 /* Main content section */
 .main {
-
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 68%;
     margin-top: 60px;
-    padding: 20px;
     box-sizing: border-box;
     background-color: #F0F2F5;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height:100%;
+    min-width: 200px;
+    gap: 30px;
+
+
 
 
 }
 .pots {
+
     margin: 20px;
     overflow: auto;
     display: flex;
-    width:50%;
+    width:72%;
     background-color: white;
     border-radius: 20px;
+
+
+
+
 
 }
 .potsbtn{
@@ -128,12 +147,10 @@ body {
     border-top: 1px solid black;
     padding: 20px;
     margin: 5px;
+    cursor: pointer;
 }
-.potsbtn .btn {
+.btn {
     background-color:white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 20px;
 }
 .feel {
@@ -143,23 +160,61 @@ body {
 .post1 {
     display: flex;
     margin: 20px;
-    display: flex;
-    width:50%;
+    width:72%;
     background-color: white;
     justify-content: space-between;
+    align-items: stretch;
     border-radius: 20px;
+    gap: 20px;
 }
 .img1 img {
-    margin: 5px 5px;
+    margin: 5px 14px;
     height: 200px;
     width: 200px;
+
+
 }
 .btn1 {
     border: 0;
     border-radius: 10px;
     font-size: 15px;
     margin: 5px 20px;
+    cursor: pointer;
+
 }
+.sidebar-right {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
+    background-color:#bdc3c7;
+    flex-direction: column;
+    min-width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.stories {
+    margin: 10px;
+    height: 130px;
+    width: 300px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.stories img {
+    border: 1px solid darkslateblue;
+    margin: 10px;
+}
+ #b
+{
+     margin-left: 190px;
+   color: cornflowerblue;
+
+}
+
+
+
 
 
 
