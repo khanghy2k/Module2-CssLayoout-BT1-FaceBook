@@ -37,6 +37,7 @@ body {
 
 }
 .logo {
+
     border-radius: 10px;
     margin: 5px;
 }
@@ -80,17 +81,17 @@ body {
 
 /* Sidebar sections */
 .sidebar {
-    position: fixed;
+    display: flex;
+    flex-direction: column;
     top: 60px;
     left: 0;
     min-width: 100px;
     height: 100%;
     width: 300px;
-    background-color:#bdc3c7;
     padding: 20px;
     box-sizing: border-box;
     margin-top: 5px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 
 }
 .sidebar ul {
@@ -113,14 +114,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 68%;
     margin-top: 60px;
+    height: 100%;
+    width: 70%;
     box-sizing: border-box;
     background-color: #F0F2F5;
     flex-direction: column;
     min-width: 200px;
-    gap: 30px;
 
 
 
@@ -131,7 +131,7 @@ body {
     margin: 20px;
     overflow: auto;
     display: flex;
-    width:72%;
+    width:80%;
     background-color: white;
     border-radius: 20px;
 
@@ -160,12 +160,11 @@ body {
 .post1 {
     display: flex;
     margin: 20px;
-    width:72%;
+    width:80%;
     background-color: white;
     justify-content: space-between;
     align-items: stretch;
     border-radius: 20px;
-    gap: 20px;
 }
 .img1 img {
     margin: 5px 14px;
@@ -188,19 +187,19 @@ body {
     justify-content: space-between;
     height: 100%;
     box-sizing: border-box;
-    background-color:#bdc3c7;
     flex-direction: column;
     min-width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 
 
 }
 .stories {
-    margin: 10px;
+    margin: 15px;
     height: 130px;
     width: 300px;
     background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .stories img {
     border: 1px solid darkslateblue;
